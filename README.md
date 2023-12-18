@@ -24,9 +24,10 @@
 - ```AugLy_pad_text_to_logo_ver/submission```
 
 **比較結果**
-提案手法	Recall@20
-1．文字列結合によるデータ拡張	0.643320
-2．イラスト部分抽出によるデータ拡張	0.665369
+|提案手法|Recall@20|
+|--|--|
+|1．文字列結合によるデータ拡張	|0.643320|
+|2．イラスト部分抽出によるデータ拡張	|0.665369|
 
 
 <img src="./readme_imgs/result.png">
@@ -78,7 +79,7 @@ google colab
 
 :bulb: ipynb内部でcontent直下にファイル構造を作成する処理をしているため，以下を自身のgoogole driveにコピーしてそのまま実行可能
 
-modelのトレーニングには，[anyai様の実装](https://github.com/anyai-28/nishika_jpo_2nd_solution)のconvnext部分一部変更して用いた．
+modelのトレーニングには，[anyai様の実装](https://github.com/anyai-28/nishika_jpo_2nd_solution)のconvnext部分を一部変更して用いた．
 
 ### AugLy_ver
 
