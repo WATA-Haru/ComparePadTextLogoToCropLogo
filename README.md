@@ -77,6 +77,9 @@ google colab
 :eyes:google colab pro, 200GB storageが必要
 
 :bulb: ipynb内部でcontent直下にファイル構造を作成する処理をしているため，以下を自身のgoogole driveにコピーしてそのまま実行可能
+
+modelのトレーニングには，[anyai様の実装](https://github.com/anyai-28/nishika_jpo_2nd_solution)のconvnext部分一部変更して用いた．
+
 ### AugLy_ver
 
 - モデルのトレーニング
